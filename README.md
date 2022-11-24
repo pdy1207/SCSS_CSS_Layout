@@ -63,7 +63,7 @@
 - [x] flex-shrink
 - [x] flex-basis
 
-## Grid:
+## Grid: 너무너무 어려워 🥲
 
 - [x] grid-template-columns
 - [x] grid-template-rows
