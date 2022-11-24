@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/110442250/203669997-d092ac14-f693-4779-a986-0bae717fcf56.png" height="450" width="600">
   <h1 align="center">Hello ! Nomadcoders 👨‍💻</h1>
-  <h3 align="center"> CSS ? CSS 포커스는 레이아웃!!<h3>
+  <h3 align="center"> CSS 포커스는 레이아웃!!<h3>
 </p>
 
 ### CSS ?  `포커스는 레이아웃!!` 
