@@ -50,7 +50,7 @@
 
 <hr>
 
-## Flexbox:
+## Flexbox: [강의 보러가기](https://nomadcoders.co/css-layout-masterclass)
 
 - [x] flex-direction
 - [x] order
