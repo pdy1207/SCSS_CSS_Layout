@@ -6,6 +6,9 @@
  1. row (행) 기본값 === 가로 
  2. column (열) 세로 3. reverse (반대로~!)
 
+flex-flow === flex-direction / flex- wrap 
+ex)) flex-flow: align-items: 
+
 ### 잊지말자!!! 
 
  `justify-content == main axis`
