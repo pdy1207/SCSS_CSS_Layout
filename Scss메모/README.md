@@ -2,7 +2,14 @@
 <p align="center">
   <img src="https://heropy.blog/css/images/vendor_icons/sass.png" height="150" width="300">
 </p>
-  
+
+## SCSS:
+
+- [x] Variables
+- [x] Nesting
+- [x] Mixins
+- [x] Extend
+- [x] Responsive Mixins
 
 ### Scss ? `Syntactically Awesome Style Sheets, Sass`
   
@@ -30,3 +37,5 @@ SCSS 파일을 만들때 _을 넣는건 css로 변환되지 않길 원하는 것
 
     그런 active, hover 같은 활동적인 CSS를 넣어주고 싶다!?
     ㄴ& 넣기
+
+
