@@ -60,4 +60,38 @@ SCSS 파일을 만들때 _을 넣는건 css로 변환되지 않길 원하는 것
 SCSS mixin에선 @if @else문도 사용 가능 <br>
 (SCSS에서는 @을 붙여줘야 한다)
 
+<hr>
+
+### `extend`
+extend를 사용할 수 있는 scss 는 '%' 사용 <br>
+
+css파일을 한눈에 알아보기 쉽게 하기 위해 <br>
+1. 관련 없는 태그들의 속성 지정은 mixins 사용이 좋은것 같습니다.
+2. 연관된 태그들의 속성 지정은 extend를 사용하시면 될 것 같습니다.
+
+#### `@mixins`: css 스타일을 함수처럼 만들 수 있음. <br> 
+예시) @mixins function($param) <br>
+
+#### `@include` : @mixin 함수 에 variable(argument) 를 전달 함으로써 재활용 가능하게 해줌. <br>
+예시) @include function(argument) <br>
+
+#### `@content`: css 스타일을 다른 css 스타일에 추가 가능하게 해줌. <br>
+- @include로 호출해서 { .... } 내에 추가적인 스타일 코드 입력 하면 content 에 더해짐.  <br>
+
+예시)
+
+        @include function("iPhone") {
+        color: blue;
+        }
+
+        @mixin function($device) {
+        font-size: 28px;
+        @if $device == "iPhone"
+        @content; // color: blue;
+
+<hr> 
+
+> 이러한 것을 정리한 깃허브로서 Bourbon , Sass MediaQueries , Animate.css `@include` 하면됨!! 
+
+#### 내가 정말 좋아하는 라이브러리 찾기! 
 
