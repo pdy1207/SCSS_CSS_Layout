@@ -21,7 +21,7 @@
 
 <hr>
 
-###`Variables`
+### `Variables`
 
 SCSS 파일을 만들때 _을 넣는건 css로 변환되지 않길 원하는 것들을 저장함 <br>
 ㄴ $을 붙여서 사용 <br>
@@ -32,7 +32,7 @@ SCSS 파일을 만들때 _을 넣는건 css로 변환되지 않길 원하는 것
 - shadow
 - font-size , family....  
   
-###`Nesting(둥지)`
+### `Nesting(둥지)`
 
 부모 내 자식 요소들의 CSS를 굳이 class를 주지 않아도 된다. <br>
 ㄴ매우 큰 장점이라고 생각함<br>
